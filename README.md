@@ -1,10 +1,10 @@
-Overview-
+Overview:
 The Flask Booking System is a web application designed to simplify appointment scheduling with a modern interface and real-time admin notifications.
 Built with Flask, this project allows users to register, log in, select date/time slots, and submit booking details, which are stored in an SQLite database. 
 Administrators receive instant WhatsApp notifications for each new booking via Twilio's API, ensuring efficient management. 
 The UI features a sleek, responsive design with animations, making it both functional and visually appealing.
 
-Features
+Features:
 User Authentication: Secure registration and login with password hashing (Werkzeug).
 Role-Based Access: Separate views for users and admins (admin panel for booking oversight).
 Graphical UI: Responsive design with gradient backgrounds, card layouts, and animations (CSS, Font Awesome, Google Fonts).
