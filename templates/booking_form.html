@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="booking-container">
+    <div class="booking-card animate-card">
+        <h2 class="booking-title">Complete Your Booking</h2>
+        <form method="POST" class="booking-form">
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" name="name" placeholder="Full Name" required class="booking-input">
+            </div>
+            <div class="input-group">
+                <i class="fas fa-phone"></i>
+                <input type="text" name="contact" placeholder="Contact Number" required class="booking-input">
+            </div>
+            <div class="input-group">
+                <i class="fas fa-map-marker-alt"></i>
+                <textarea name="address" placeholder="Address" required class="booking-textarea"></textarea>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-building"></i>
+                <input type="text" name="organization" placeholder="Organization Name" required class="booking-input">
+            </div>
+            <div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email" name="email" placeholder="Email" required class="booking-input">
+            </div>
+            <button type="submit" class="btn btn-primary booking-btn">Submit Booking</button>
+        </form>
+        <a href="{{ url_for('dashboard') }}" class="back-link">Back to Dashboard</a>
+    </div>
+</div>
+{% endblock %}
