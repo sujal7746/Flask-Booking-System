@@ -27,7 +27,7 @@ Git (for cloning the repository)
 Installation
 
 Clone the Repository:
-git clone https://github.com/yourusername/flask-booking-system.git.
+git clone https://github.com/sujal7746/flask-booking-system.git.
 cd flask-booking-system
 
 Set Up a Virtual Environment:
